@@ -11,4 +11,5 @@ class Comment(models.Model):
     is_public = models.BooleanField(default = True)
     author_title = models.CharField(max_length = 1000)
     image = models.CharField(max_length = 1000)
+    currentUrl = models.CharField(max_length = 1000)
     

@@ -16,5 +16,5 @@ class CommentResource(ModelResource):
         resource_name = 'comment'
         authorization = Authorization()
         filtering = {
-            'pub_date': ['exact', 'lt', 'lte', 'gte', 'gt'],
+            'currentUrl': ['exact', 'lt', 'lte', 'gte', 'gt'],
         }
